@@ -14,27 +14,44 @@
 </head>
 
 <body class="container bg-warning">
-    <nav class="navigation">
-        <div class="logopara" >
-            <img src="asset/dima-solomin-upBKRmHJrCI-unsplash.jpg" alt="logo" class="mylogo">
-            <p>OPERANIYIFX COPY</p>
-        </div>
-        <div class="links">
-            <p><a href="index.html" class="me">HOME</a></p>
-            <p><a href="free.html" class="me">SMILE</a></p>
-            <p><a href="float.html" class="me">NECO</a></p>
-            <p><a href="me.html" class="me">SIMPLIFIED</a></p>
-            <p><a href="#" class="me">INNOVATION-PMI</a></p>
-            <select name="project" id="linkSelect" onchange="if(this.value) { window.location.href=this.value; }">
-                <option value="">PROJECT</option>
-                <option value="play.html">PROJECT 1</option>
-                <option value="time.html">PROJECT 2</option>
-                <option value="frt.html">PROJECT 3</option>
-                <option value="pull.html">PROJECT 4</option>
-            </select>
-        </div>
-        <i class="fa fa-list"></i>
-    </nav>
+    <ul class="nav nav-tabs bg-danger" >
+        <li class="nav-item">
+          <a class="nav-link active bg-success"  href="index.html">HOME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="free.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="frt.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="me.html">HISTORY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="new.html">SIMPLIFIED</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">PROJECT</a>
+          <ul class="dropdown-menu">
+            <!-- <li><a class="dropdown-item" href=""> PROJECT 1</a></li> -->
+            <li><a class="dropdown-item" href=" play.html">PROJECT 2</a></li>
+            <li><a class="dropdown-item" href="pull.html">PROJECT 3</a></li>
+            <li><a class="dropdown-item" href="time.html">PROJECT 4</a></li>
+          </ul>
+        </li>
+      
+      </ul>
+    <!-- <div class="alert alert-danger">
+        enjoy 50% off of free courses online
+    </div>
+    <div class="alert alert-success alert- dismissible fade show">
+        <strong>hello guys</strong>enjoy 50% off of free courses online
+        <button type="button " class="btn btn-close" data-bs-dismiss="alert">
+            
+        </button>
+    </div> -->
     <div class="parent">
         <div class="pek row-md-12">
             <h2>Why Choose Smile</h2>
@@ -43,26 +60,70 @@
             <div class="feature col-md-4">
                 <i class="fa-solid fa-tower-cell"></i>
                 <p class="met">Best 4G Network</p>
-                <p class="internet">Enjoy superfast internet with 4G LTE 
+                <p class="internet">Enjoy superfast internet with 4G LTE
                     data and super clear services.</p>
                 <button class="know-more" aria-label="Learn more about Best 4G Network">KNOW MORE</button>
             </div>
             <div class="feature col-md-4">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <p class="wet">24/7 Help and Support</p>
-                <p class="chat">Our virtual chat assistant is available 
+                <p class="chat">Our virtual chat assistant is available
                     to <br> help you 24/7.</p>
                 <button class="know-more" aria-label="Learn more about 24/7 Help and Support">KNOW MORE</button>
             </div>
             <div class="feature col-md-4">
                 <i class="fa-solid fa-thumbs-up"></i>
                 <p class="det">Best Value</p>
-                <p class="your">Get the best value for your company with our 
+                <p class="your">Get the best value for your company with our
                     data and voice services.</p>
                 <button class="know-more" aria-label="Learn more about Best Value">KNOW MORE</button>
             </div>
         </div>
     </div>
+    <!-- <button type="button " class="btn btn-danger">
+        primary
+    </button>
+    <button type="button" class="btn btn-outline-danger">
+        primary
+    </button> -->
+    
+    <!-- <ul class="nav nav-pills ">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#"></a>
+        </li>
+    </ul> -->
+    <!-- <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+      </div>
+      <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+      </div>
+      <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+      </div>
+      <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+      </div>
+      <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+      </div>
+      <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+      </div>
+      <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div> -->
+
+  <script src="temi.js"></script>
 </body>
 
 </html>

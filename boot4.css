@@ -1,0 +1,11 @@
+.child{
+    /* background-color: red; */
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    border:10px solid lawngreen !important;
+}
+.red{
+    color: orange;
+}

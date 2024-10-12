@@ -15,29 +15,35 @@
 </head>
 
 <body class="container bg-warning">
-    <div class="navigation">
-        <div class="logopara">
-            <img src="asset/dima-solomin-upBKRmHJrCI-unsplash.jpg" alt="logo" class="mylogo">
-            <p>OPERANIYIFX COPY</p>
-        </div>
-        <div class="links">
-            <p><a href="index.html" class="me">HOME</a></p>
-            <p><a href="free.html" class="me">SMILE</a></p>
-            <p><a href="float.html" class="me">NECO</a></p>
-            <p><a href="me.html" class="me">SIMPLIFIED</a></p>
-            <p><a href="new.html" class="me">INNOVATION-PMI</a></p>
-            <form action="" method="get" id="linkForm">
-                <select name="project" id="linkSelect" onchange="if(this.value) { window.location.href=this.value; }">
-                    <option value="">PROJECT</option>
-                    <option value="play.html">PROJECT 1</option>
-                    <option value="#">PROJECT 2</option>
-                    <option value="frt.html">PROJECT 3</option>
-                    <option value="pull.html">PROJECT4</option>
-                </select>
-            </form>
-        </div>
-        <i class="fa fa-list"></i>
-    </div>
+    <ul class="nav nav-tabs bg-danger" >
+        <li class="nav-item">
+          <a class="nav-link active bg-success"  href="index.html">HOME</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="free.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="frt.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="me.html">HISTORY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="new.html">SIMPLIFIED</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">PROJECT</a>
+          <ul class="dropdown-menu">
+            <!-- <li><a class="dropdown-item" href=""> PROJECT 1</a></li> -->
+            <li><a class="dropdown-item" href=" play.html">PROJECT 2</a></li>
+            <li><a class="dropdown-item" href="pull.html">PROJECT 3</a></li>
+            <li><a class="dropdown-item" href="time.html">PROJECT 4</a></li>
+          </ul>
+        </li>
+      
+      </ul>
     <p class="mew">
         <!-- Your text content here -->
     </p>
@@ -52,7 +58,7 @@
         </p>
         <div class="mes"></div>
     </div>
-
+    <script src="temi.js"></script>
 </body>
 
 </html>
