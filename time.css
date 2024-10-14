@@ -10,13 +10,13 @@
 .myname{
     font-size: 20px;
     position: relative;
-    left: 30px;
+    left: 10px;
 }
 .mine{
     width: 400px;
     height: 70px;
     position: relative;
-    left: 30px;
+    left: 10px;
     
 }
 .mes{
@@ -32,11 +32,7 @@
 h2{
     text-transform: capitalize;
 }
-/* .fa-list{
-    font-size: 70px;
-    /* display: none; */
-    visibility: hidden;
-} */
+
 @media (max-width:780px) {
     .navigation{
         display: none;
