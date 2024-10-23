@@ -1,0 +1,48 @@
+.animation{
+    background-color: lawngreen;
+    width:200px;
+    height: 200px;
+    rotate: 45deg;
+    margin-left: 200px;
+    margin-top: 500px;
+    animation-name: temi;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function:ease-in-out;
+}
+@keyframes temi{
+    from{
+        position: relative;
+        top: 100px;
+    }
+    to{
+        position: relative;
+        bottom: 100px;
+    }
+    
+}
+.tope{
+    background-color: lawngreen;
+    width:200px;
+    height: 200px;
+    rotate: 45deg;
+    margin-left: 600px;
+    margin-bottom: 500px;
+    animation-name: temi;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function:ease-in-out;
+}
+@keyframes temi{
+    from{
+        margin-top:500px;
+    }
+    to{
+        margin-bottom:500px;
+    }
+    
+}

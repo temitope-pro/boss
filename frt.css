@@ -7,7 +7,7 @@ body{
     width: 200px;
     position: relative;
     animation-name: west;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: fowards;

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="javascriptass.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <ul class="nav nav-tabs bg-danger" >
+        <li class="nav-item">
+          <a class="nav-link active bg-success"  href="index.html">HOME</a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link" href="free.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="frt.html">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="me.html">HISTORY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="new.html">SIMPLIFIED</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href="greenpeace.html">ASSIGNMENT 2</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link"href="#">ASSIGNMENT 3</a>
+      </li>
+    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">PROJECT</a>
+          <ul class="dropdown-menu">
+            <!-- <li><a class="dropdown-item" href=""> PROJECT 1</a></li> -->
+            <li><a class="dropdown-item" href=" play.html">PROJECT 2</a></li>
+            <li><a class="dropdown-item" href="pull.html">PROJECT 3</a></li>
+            <li><a class="dropdown-item" href="time.html">PROJECT 4</a></li>
+          </ul>
+        </li>
+      
+      </ul>
+    <h1 class="header1">SIMILARITIES BETWEEN LET ,VAR AND CONST</h1>
+    <br>
+    <div class="container">
+        <ol>
+            <li>Block Scope: All three can be used within a block (e.g., within {}), but their scoping rules differ. let
+                and
+                const are block-scoped, while var is function-scoped.
+            </li>
+            <li>Hoisting: All three declarations are hoisted to the top of their containing scope. However, while var
+                can
+                be
+                used before it's declared (with an undefined value), let and const cannot be accessed before their
+                declaration,
+                resulting in a "temporal dead zone."
+            </li>
+            <li>Re-declaration: var allows re-declaration within the same scope, while let and const do not allow
+                re-declaration in the same block scope.
+            </li>
+            <li>Variable Initialization: All three can be initialized at the time of declaration or later in the code.
+                However, const requires an initializer at the time of declaration.
+            </li>
+            <li>Use in Global Scope: When declared in the global scope, all three can create properties on the global
+                object
+                (e.g., window in browsers). However, var creates a property, while let and const do not.
+            </li>
+        </ol>
+    </div>
+    <br>
+    <hr>
+    <h1 class="header2">DIFFERENCES BETWEEN LET ,VAR AND CONST</h1>
+    <div class="container">
+        <br>
+        <ol>
+            <li> Scope:
+                <ul>
+                    <li> var: Function-scoped or globally scoped, meaning it is accessible throughout the entire
+                        function
+                        or
+                        globally if declared outside any function.</li>
+                    <li>let: Block-scoped, meaning it is only accessible within the nearest enclosing block (e.g.,
+                        inside
+                        {}).</li>
+                    <li>const: Also block-scoped, similar to let.</li>
+                </ul>
+            </li>
+
+            <li> Re-declaration:
+                <ul>
+                    <li>var: Allows re-declaration of the same variable within the same scope. </li>
+                    <li>let: Does not allow re-declaration in the same block scope.</li>
+                    <li>const: Does not allow re-declaration in the same block scope.</li>
+                </ul>
+            </li>
+            <li> Initialization:
+                <ul>
+                    <li>var: Can be declared without initialization and can be assigned a value later.</li>
+                    <li>let: Can also be declared without initialization and assigned a value later.</li>
+                    <li>const: Must be initialized at the time of declaration; otherwise, it results in a syntax error.
+                    </li>
+                </ul>
+            </li>
+            <li>Re-assignment:
+                <ul>
+                    <li> var: Can be re-assigned a new value after its initial assignment.</li>
+                    <li> let: Can also be re-assigned a new value.</li>
+                    <li> const: Cannot be re-assigned; once a value is assigned, it cannot be changed (though properties
+                        of
+                        objects
+                        assigned to a const can be mutated).</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <br>
+    <hr>
+    <h1 class="header3">SHORT HISTORY OF JAVASCRIPT (ECMA SCRIPT 1) TO (ES6)</h1>
+    <br>
+    <div class="container">
+        <p class="text">
+            JavaScript was created in 1995 by Brendan Eich while working at Netscape. The first edition of ECMAScript
+            (ES1) was standardized in June 1997 to provide a consistent scripting language for web development. ES2
+            followed in 1998, focusing on minor updates and maintenance.
+        </p>
+        <p class="text">
+            In 1999, ES3 introduced significant features like regular expressions, try/catch, and more robust string
+            manipulation. After a long hiatus, ES4 was proposed but ultimately abandoned due to complexity and
+            disagreement among stakeholders.
+        </p>
+        <p class="text">
+            In 2009, ES5 was released, adding "strict mode," JSON support, and new array methods. This revitalized
+            interest in JavaScript. Finally, in 2015, ES6 (or ECMAScript 2015) arrived, introducing major enhancements
+            such as classes, modules, arrow functions, and promises, solidifying JavaScript’s status as a powerful and
+            versatile language for modern web development.
+
+        </p>
+    </div>
+
+    <script src="temi.js"></script>
+</body>
+
+</html>

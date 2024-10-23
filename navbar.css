@@ -1,0 +1,31 @@
+.name{
+    background-color: blue;
+}
+.temi{
+    /* background-color: gray; */
+    color: white!important;
+    
+}
+.ment{
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+.wura{
+    /* background-color: gray; */
+    color: white!important;
+}
+.enny{
+    /* background-color: gray; */
+    color: white!important;
+    /* margin-left: 200px !important; */
+}
+.click{
+    background-color: blue !important;
+    height: auto !important;
+    width:auto !important;
+}
+@media (max-width:768px) {
+    .temi{
+        margin-left: 0px !important;
+    }
+}

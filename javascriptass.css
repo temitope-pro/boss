@@ -1,0 +1,13 @@
+.header1,
+.header2,
+.header3{
+    text-align: center !important;
+    text-decoration: underline;
+    /* background-color: blue; */
+}
+.text{
+    text-indent: 50px;
+}
+.header1{
+    margin-top: 20px;
+}
